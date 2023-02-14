@@ -11,8 +11,7 @@
   "contributors": [
     "Yashar Fakhari (https://github.com/YasharF)"
   ],
-  "scripts": {
-    "sonar": "sonar-scanner"
+  "scripts": {    
     "postinstall": "npm rebuild node-sass",
     "start": "node app.js",
     "test": "nyc mocha --timeout=10000 --exit",
